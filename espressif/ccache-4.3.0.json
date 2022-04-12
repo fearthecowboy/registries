@@ -1,0 +1,36 @@
+{
+  "info": {
+    "id": "ccache",
+    "version": "4.3.0",
+    "description": "Ccache (compiler cache)."
+  },
+  "contacts": {
+    "Garrett Campbell": {
+      "email": "gcampbell@microsoft.com",
+      "role": [
+        "publisher",
+        "originator"
+      ]
+    },
+    "Garrett Serack": {
+      "email": "garretts@microsoft.com",
+      "role": [
+        "publisher",
+        "originator"
+      ]
+    }
+  },
+  "demands": {
+    "windows and x64": {
+      "install": {
+        "unzip": "https://github.com/ccache/ccache/releases/download/v4.3/ccache-4.3-windows-64.zip",
+        "sha256": "a9cacae73c3906d8193456328bee74f7748cb1559a32eaced9ee78eadd416105"
+      }
+    }
+  },
+  "exports": {
+    "environment": {
+      "IDF_CCACHE_ENABLE": "1"
+    }
+  }
+}

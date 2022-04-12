@@ -1,0 +1,79 @@
+{
+  "info": {
+    "id": "riscv32-esp-elf",
+    "version": "8.4.0-patch3",
+    "description": "Toolchain for 32-bit RISC-V based on GCC"
+  },
+  "contacts": {
+    "Garrett Campbell": {
+      "email": "gcampbell@microsoft.com",
+      "role": [
+        "publisher",
+        "originator"
+      ]
+    },
+    "Garrett Serack": {
+      "email": "garretts@microsoft.com",
+      "role": [
+        "publisher",
+        "originator"
+      ]
+    }
+  },
+  "demands": {
+    "linux and x64": {
+      "install": {
+        "untar": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-amd64.tar.gz",
+        "sha256": "179cbad579790ad35e0f414a18d90017c0f158c397022411a8e9867db2174f15",
+        "strip": 1
+      }
+    },
+    "linux and arm64": {
+      "install": {
+        "untar": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-arm64.tar.gz",
+        "sha256": "fb339d476c79c76db8f903b265cab6bb6950d5ed954dec644445252d3378023c",
+        "strip": 1
+      }
+    },
+    "linux and arm": {
+      "install": {
+        "untar": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-armel.tar.gz",
+        "sha256": "51a6296d8334b7452dba44b2b62e87afd7fd1c74bafa1aa29b1f4ab72cb9e5e0",
+        "strip": 1
+      }
+    },
+    "linux and x86": {
+      "install": {
+        "untar": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-linux-i686.tar.gz",
+        "sha256": "fef60f7ef37ffaa50416d8f244cdbd710d6729dae41ef06c4ec0e50a1f3b7dd7",
+        "strip": 1
+      }
+    },
+    "osx": {
+      "install": {
+        "untar": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/riscv32-esp-elf-gcc8_4_0-esp-2021r1-macos.tar.gz",
+        "sha256": "4aacc1742a76349d790b1ac8e9e9d963daefda5346dbd6741cfe8e7a35a44e4e",
+        "strip": 1
+      }
+    },
+    "windows and x86": {
+      "install": {
+        "unzip": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+        "sha256": "eb2a442d7f551ebeb842995ec372ec4b364314ca2d7aae779399a74972f7d6bc",
+        "strip": 1
+      }
+    },
+    "windows and x64": {
+      "install": {
+        "unzip": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/riscv32-esp-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
+        "sha256": "f5607e5187317d521f0474cade83f8eb590f2d165d95c3779b6ce11fbac21d1f",
+        "strip": 1
+      }
+    }
+  },
+  "exports": {
+    "paths": {
+      "PATH": "bin"
+    }
+  }
+}

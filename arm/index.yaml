@@ -1,0 +1,28 @@
+# MANIFEST-INDEX
+items:
+  [
+    compilers/gcc-10.3.1-2021.10.json,    compilers/gcc-10.3.1-2021.7.json,    compilers/gcc-10.3.1.json
+  ]
+indexes:
+  IdentityKey/info.id:
+    keys:
+      compilers/gcc: [ 0, 1, 2 ]
+    words:
+      compilers: [ 0, 1, 2 ]
+      compilers/gcc: [ 0, 1, 2 ]
+      gcc: [ 0, 1, 2 ]
+  SemverKey/info.version:
+    keys:
+      10.3.1-2021.7: [ 1 ]
+      10.3.1-2021.10: [ 0 ]
+      10.3.1: [ 2 ]
+  StringKey/info.summary:
+    keys:
+      GCC compiler for ARM CPUs.: [ 0, 1, 2 ]
+    words:
+      ARM: [ 0, 1, 2 ]
+      CPUs: [ 0, 1, 2 ]
+      CPUs.: [ 0, 1, 2 ]
+      GCC: [ 0, 1, 2 ]
+      compiler: [ 0, 1, 2 ]
+      for: [ 0, 1, 2 ]

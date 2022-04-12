@@ -1,0 +1,79 @@
+{
+  "info": {
+    "id": "xtensa-esp32s3-elf",
+    "version": "8.4.0-patch3",
+    "description": "Toolchain for Xtensa (ESP32-S3) based on GCC"
+  },
+  "contacts": {
+    "Garrett Campbell": {
+      "email": "gcampbell@microsoft.com",
+      "role": [
+        "publisher",
+        "originator"
+      ]
+    },
+    "Garrett Serack": {
+      "email": "garretts@microsoft.com",
+      "role": [
+        "publisher",
+        "originator"
+      ]
+    }
+  },
+  "demands": {
+    "linux and x64": {
+      "install": {
+        "untar": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/xtensa-esp32s3-elf-gcc8_4_0-esp-2021r2-patch3-linux-amd64.tar.gz",
+        "sha256": "59b271d014ff3915b6db1b43b610a45eea15fe5d6877d12cae8a191cc996ed37",
+        "strip": 1
+      }
+    },
+    "linux and arm64": {
+      "install": {
+        "untar": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/xtensa-esp32s3-elf-gcc8_4_0-esp-2021r2-patch3-linux-arm64.tar.gz",
+        "sha256": "7051b32483e61f98606d71c98e372929428a5165df791dcd5830ed9517763152",
+        "strip": 1
+      }
+    },
+    "linux and arm": {
+      "install": {
+        "untar": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/xtensa-esp32s3-elf-gcc8_4_0-esp-2021r2-patch3-linux-armel.tar.gz",
+        "sha256": "48c8dbbf96eec691a812327dc580042d9718fe989e60c2111ebfd692ac710081",
+        "strip": 1
+      }
+    },
+    "linux and x86": {
+      "install": {
+        "untar": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/xtensa-esp32s3-elf-gcc8_4_0-esp-2021r2-patch3-linux-i686.tar.gz",
+        "sha256": "552dca3f4302ab7ca88a934b0391200198c9d10a4d8ac413fe604cbf8601f950",
+        "strip": 1
+      }
+    },
+    "osx": {
+      "install": {
+        "untar": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/xtensa-esp32s3-elf-gcc8_4_0-esp-2021r2-patch3-macos.tar.gz",
+        "sha256": "e5af78f05d3af07617805d06ebb45ff2fe9b6aed6970a84c35eea28a5d8d5e53",
+        "strip": 1
+      }
+    },
+    "windows and x86": {
+      "install": {
+        "unzip": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/xtensa-esp32s3-elf-gcc8_4_0-esp-2021r2-patch3-win32.zip",
+        "sha256": "1b70163acccc5655449de1d149427a54f384156bd35816ec60c422d76d033f05",
+        "strip": 1
+      }
+    },
+    "windows and x64": {
+      "install": {
+        "unzip": "https://github.com/espressif/crosstool-NG/releases/download/esp-2021r2-patch3/xtensa-esp32s3-elf-gcc8_4_0-esp-2021r2-patch3-win64.zip",
+        "sha256": "58e58575d1938879fd51e822181e54bcb343aa846eb3fca8f616c2cde7bd0041",
+        "strip": 1
+      }
+    }
+  },
+  "exports": {
+    "paths": {
+      "PATH": "bin"
+    }
+  }
+}

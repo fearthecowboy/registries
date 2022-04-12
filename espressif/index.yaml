@@ -1,0 +1,63 @@
+# MANIFEST-INDEX
+items:
+  [
+    ccache-4.3.0.json,    dfu-util-0.9.0.json,    esp32s2ulp-elf-2.28.51-esp-20191205.json,    esp32ulp-elf-2.28.51-esp20191205.json,    idfwrapper.json,    idf-1.10.2.json,    openocd-0.11.0-esp32-20211120.json,    riscv32-esp-elf-8.4.0-patch3.json,    xtensa-esp32-elf-8.4.0-patch3.json,    xtensa-esp32s2-elf-8.4.0-patch3.json,    xtensa-esp32s3-elf-8.4.0-patch3.json
+  ]
+indexes:
+  IdentityKey/info.id:
+    keys:
+      ccache: [ 0 ]
+      dfu_util: [ 1 ]
+      esp32s2ulp-elf: [ 2 ]
+      esp32ulp-elf: [ 3 ]
+      idf: [ 5 ]
+      idfwrapper: [ 4 ]
+      openocd: [ 6 ]
+      riscv32-esp-elf: [ 7 ]
+      xtensa-esp32-elf: [ 8 ]
+      xtensa-esp32s2-elf: [ 9 ]
+      xtensa-esp32s3-elf: [ 10 ]
+    words:
+      ccache: [ 0 ]
+      dfu_util: [ 1 ]
+      elf: [ 2, 3, 7, 8, 9, 10 ]
+      esp: [ 7 ]
+      esp-elf: [ 7 ]
+      esp32: [ 8 ]
+      esp32-elf: [ 8 ]
+      esp32s2: [ 9 ]
+      esp32s2-elf: [ 9 ]
+      esp32s2ulp: [ 2 ]
+      esp32s2ulp-elf: [ 2 ]
+      esp32s3: [ 10 ]
+      esp32s3-elf: [ 10 ]
+      esp32ulp: [ 3 ]
+      esp32ulp-elf: [ 3 ]
+      idf: [ 5 ]
+      idfwrapper: [ 4 ]
+      openocd: [ 6 ]
+      riscv32: [ 7 ]
+      riscv32-esp: [ 7 ]
+      riscv32-esp-elf: [ 7 ]
+      xtensa: [ 8, 9, 10 ]
+      xtensa-esp32: [ 8 ]
+      xtensa-esp32-elf: [ 8 ]
+      xtensa-esp32s2: [ 9 ]
+      xtensa-esp32s2-elf: [ 9 ]
+      xtensa-esp32s3: [ 10 ]
+      xtensa-esp32s3-elf: [ 10 ]
+  SemverKey/info.version:
+    keys:
+      0.9.0: [ 1 ]
+      0.11.0-esp32-20211120: [ 6 ]
+      0.11.0: [ 4 ]
+      1.10.2: [ 5 ]
+      2.28.51-esp20191205: [ 2, 3 ]
+      4.3.0: [ 0 ]
+      8.4.0-patch3: [ 7, 8, 9, 10 ]
+  StringKey/info.summary:
+    keys:
+      Espressif IDF: [ 5 ]
+    words:
+      Espressif: [ 5 ]
+      IDF: [ 5 ]
