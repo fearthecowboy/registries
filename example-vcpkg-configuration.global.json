@@ -1,0 +1,29 @@
+{
+  "registries": [
+    {
+      "kind": "artifact",
+      "name": "microsoft",
+      "location": "c:/work/2022/registries/microsoft"
+    },
+    {
+      "kind": "artifact",
+      "name": "espressif",
+      "location": "c:/work/2022/registries/espressif"
+    },
+    {
+      "kind": "artifact",
+      "name": "kitware",
+      "location": "c:/work/2022/registries/kitware"
+    },
+    {
+      "kind": "artifact",
+      "name": "community",
+      "location": "c:/work/2022/registries/community"
+    },
+    {
+      "kind": "artifact",
+      "name": "arm",
+      "location": "c:/work/2022/registries/arm"
+    }
+  ]
+}
